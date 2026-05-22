@@ -15,7 +15,7 @@ public class Solution extends GuessGame {
         
         while(left <= right){
             
-            int mid = left + (right - left) / 2;    // mevcut tahmin ettiğimiz sayı
+            int mid = left + (right - left) / 2;    // tahmin ettiğimiz sayı
 
             // guess(mid) --> burdan gönderdiğimiz mid değerini pick ile kıyaslar.ve o sonucu döndürür.
             
