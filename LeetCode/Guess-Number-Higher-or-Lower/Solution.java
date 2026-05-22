@@ -18,6 +18,7 @@ public class Solution extends GuessGame {
             int mid = left + (right - left) / 2;    // mevcut tahmin ettiğimiz sayı
 
             // guess(mid) --> burdan gönderdiğimiz mid değerini pick ile kıyaslar.ve o sonucu döndürür.
+            
             if(guess(mid) == -1){  // pick < mid
                 right = mid - 1;
             }
