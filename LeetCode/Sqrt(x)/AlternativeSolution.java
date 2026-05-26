@@ -2,7 +2,6 @@ class Solution {
     public int mySqrt(int x) {
         
         int a = 0;
-
         while((long)a * a <= x){
             a++;
         }
